@@ -1,0 +1,9 @@
+{
+	"modules" : { 
+		"vdm"  : {
+			"description": "Raconte une vie de merde",
+			"version": "1.0",
+			"rules" : ["shit"]
+		}
+	}
+}
