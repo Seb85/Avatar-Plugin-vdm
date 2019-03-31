@@ -1,7 +1,7 @@
 vdm
 =========
 
-Ce plugin est un add-on pour le framework [Avatar](https://github.com/Spikharpax/Avatar-Serveur)
+Ce plugin est un add-on pour le framework [Avatar](https://github.com/Spikharpax/A.V.A.T.A.R)
 
 Raconte une Vie de merde
 
