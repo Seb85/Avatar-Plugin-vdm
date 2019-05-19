@@ -29,7 +29,7 @@ function scraper(body) {
 	return new Promise(function (resolve, reject) {
 		  
 		var $ = require('cheerio').load(body, { xmlMode: true, ignoreWhitespace: false, lowerCaseTags: false });
-		var vdm = $('p.block').first().find('a').text();
+		var vdm = $('a.article-link').first().text();
 		if (!vdm) {
 			return reject('Désolé je n\'ai pas trouvé de vie de merde');
 		}
